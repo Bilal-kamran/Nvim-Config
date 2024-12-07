@@ -10,7 +10,6 @@ Welcome to my personal Neovim configuration! This setup is designed to enhance p
 - [Plugins](#plugins)
 - [Lazy Loading](#lazy-loading)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - **Easy to Use**: Simple and straightforward setup.
@@ -31,7 +30,7 @@ Install Plugins: Open Neovim and let lazy.nvim handle the installation of plugin
 
 If you want to add some plugins that you like simply add a new file in the plugins directory and return a table that tells lazy which plugin to download, then configure the plugin to your liking.
 
-Configuration
+## Configuration
 This configuration is organized into different files for easier management:
 
 init.lua: Main configuration file.
@@ -44,12 +43,12 @@ plugins: The plugins directory contains files that returns lua tables of each pl
 
 lazy.lua: Checks if you already have lazy installed if not then it clones it.
 
-Keymaps
+## Keymaps
 Custom key mappings are defined in keymaps.lua, all of them are taken from ThePrimeagen.
 
 Feel free to customize the key mappings to fit your workflow.
 
-Plugins
+## Plugins
 Plugins are managed using Lazy, a modern plugin manager. The plugins directory contains the list of plugins along with their configurations. Some essential plugins included:
 
 telescope.nvim: Fuzzy finder for files and more.
@@ -60,8 +59,8 @@ lualine.nvim: Status line plugin.
 
 nvim-lspconfig: Language Server Protocol configurations.
 
-Lazy Loading
+## Lazy Loading
 To optimize performance, some plugins are set to load lazily. The lazy.lua file contains these configurations. This ensures plugins are only loaded when needed, improving Neovim's startup time.
 
-Contributing
+## Contributing
 Contributions are welcome! If you have any suggestions or improvements, please feel free to open an issue or submit a pull request.
