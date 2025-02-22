@@ -3,7 +3,8 @@ local indent2 = {
   "html",
   "css",
   "javascript",
-  "lua"
+  "lua",
+  "java"
 }
 
 local indent4 = {
@@ -31,15 +32,18 @@ local function set_tab_width()
     vim.bo.tabstop = 2
     vim.bo.shiftwidth = 2
     vim.bo.softtabstop = 2
+    vim.bo.expandtab = true
   elseif contains(indent4, filetype) then
     vim.bo.tabstop = 4
     vim.bo.shiftwidth = 4
     vim.bo.softtabstop = 4
+    vim.bo.expandtab = true
   else
     -- Default tab width
     vim.bo.tabstop = 4
     vim.bo.shiftwidth = 4
     vim.bo.softtabstop = 4
+    vim.bo.expandtab = true
   end
 end
 
