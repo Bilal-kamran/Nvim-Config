@@ -1,0 +1,25 @@
+-- These are all the available colorschemes in Neovim
+
+-- vim.cmd.colorscheme("blue")
+-- vim.cmd.colorscheme("darkblue")
+-- vim.cmd.colorscheme("default")
+-- vim.cmd.colorscheme("desert")
+-- vim.cmd.colorscheme("elflord")
+-- vim.cmd.colorscheme("evening")
+-- vim.cmd.colorscheme("industry")
+-- vim.cmd.colorscheme("koehler")
+-- vim.cmd.colorscheme("lunaperche")
+-- vim.cmd.colorscheme("murphy")
+-- vim.cmd.colorscheme("pablo")
+-- vim.cmd.colorscheme("peachpuff")
+-- vim.cmd.colorscheme("retrobox")
+-- vim.cmd.colorscheme("ron")
+-- vim.cmd.colorscheme("shine")
+-- vim.cmd.colorscheme("slate")
+-- vim.cmd.colorscheme("sorbet")
+-- vim.cmd.colorscheme("torte")
+vim.cmd.colorscheme("wildcharm")
+-- vim.cmd.colorscheme("zaibatsu")
+
+-- Running the ColorMyPencils() function for my own preferred highlights
+ColorMyPencils()

@@ -1,3 +1,5 @@
-require("bilalkamran.settings")
-require("bilalkamran.keymaps")
-require("bilalkamran.indentation")
+require("bilalkamran.Settings")
+require("bilalkamran.Keymaps")
+require("bilalkamran.ColorCorrection")
+require("bilalkamran.Indentation")
+require("bilalkamran.DColors")
