@@ -82,7 +82,7 @@ of the respective plugin or plugin manager you wish to install.
    ```sh
    nvim
    ```
-   The necessary plugins will be installed automatically.
+   The necessary plugins (if any) and settings will be loaded automatically.
 
 ## Acknowledgements
 Special thanks to these resources and individuals who inspired this configuration:
