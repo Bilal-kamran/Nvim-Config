@@ -4,14 +4,19 @@ local indent2 = {
   "css",
   "javascript",
   "lua",
-  "java"
 }
 
 local indent4 = {
+  "java",
+  "py"
+}
+
+local indent8 = {
   "c",
   "cpp",
   "asm",
-  "sh"
+  "sh",
+  "make"
 }
 
 -- Function to check if a table contains a value
@@ -38,6 +43,11 @@ local function set_tab_width()
     vim.bo.shiftwidth = 4
     vim.bo.softtabstop = 4
     vim.bo.expandtab = true
+  elseif contains(indent8, filetype) then
+    vim.bo.tabstop = 8
+    vim.bo.shiftwidth = 8
+    vim.bo.softtabstop = 0
+    vim.bo.expandtab = false
   else
     -- Default tab width
     vim.bo.tabstop = 4

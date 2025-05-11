@@ -105,5 +105,5 @@ map("n", "<leader>bb", "<C-^>", { noremap = true, silent = true })
 
 -- Source the current file (use it wisely)
 map("n", "<leader><leader>", function()
-    vim.cmd("so")
+  vim.cmd("so")
 end, { noremap = true, silent = true })

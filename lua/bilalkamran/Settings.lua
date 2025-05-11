@@ -56,13 +56,13 @@ g.netrw_banner = 0
 g.netrw_winsize = 25
 
 vim.schedule(function()
-	o.clipboard = "unnamedplus"
+  o.clipboard = "unnamedplus"
 end)
 
 a.nvim_create_autocmd("TextYankPost", {
-	desc = "Highlight when yanking test",
-	group = a.nvim_create_augroup("Highlight-Yank", { clear = true }),
-	callback = function()
-		vim.highlight.on_yank()
-	end,
+  desc = "Highlight when yanking test",
+  group = a.nvim_create_augroup("Highlight-Yank", { clear = true }),
+  callback = function()
+    vim.highlight.on_yank()
+  end,
 })
