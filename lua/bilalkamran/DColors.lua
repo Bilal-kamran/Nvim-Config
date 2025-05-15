@@ -18,8 +18,8 @@
 -- vim.cmd.colorscheme("slate")
 -- vim.cmd.colorscheme("sorbet")
 -- vim.cmd.colorscheme("torte")
-vim.cmd.colorscheme("wildcharm")
+-- vim.cmd.colorscheme("wildcharm")
 -- vim.cmd.colorscheme("zaibatsu")
 
 -- Running the ColorMyPencils() function for my own preferred highlights
-ColorMyPencils()
+-- ColorMyPencils()
