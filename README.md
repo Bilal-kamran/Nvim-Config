@@ -44,11 +44,18 @@ $HOME/.config/nvim/
 │   │   ├── Indentation.lua
 │   │   ├── DColors.lua
 │   │   ├── ColorCorrection.lua
+│   ├── config/
+│   │   ├── init.lua
+│   │   ├── lazy.lua
+│   ├── plugins/
+│   │   ├── Colorscheme.lua
+│   │   ├── gitsigns.lua
+│   │   ├── treesitter.lua
 ```
 If you want to you can change the "bilalkamran" directory to "user" or something else, but make sure to change the name in the init.lua files.
 
 ## Plugin Manager
-This configuration uses no Plugin Manager.
+This configuration uses `lazy.nvim` as its plugin manager.
 
 ## Basic Keymaps
 Keymaps make navigating and using Neovim easier. If you want to understand the keymaps that are used,
@@ -65,8 +72,12 @@ You can edit the configuration in the following files:
 - A list of Default Colorschemes that comes with Neovim are in the file DColors.lua
 
 ## Adding a Plugin
-This configuration consist no plugin or plugin manager by default. If you wish to add one then follow the steps of installation
-of the respective plugin or plugin manager you wish to install.
+This configuration consists of minimal plugins as follows:
+- Colorschemes (e.g. Cattpuccin and tokyonight)
+- gitsign
+- treesitter
+
+These plugins help me to see more clearly (e.g. reduce strain on my eyes)
 
 ## How to Use the Configuration
 
