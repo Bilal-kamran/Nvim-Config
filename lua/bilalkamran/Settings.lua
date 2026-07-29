@@ -17,8 +17,8 @@ o.expandtab = true
 o.smartindent = true
 o.breakindent = true
 
--- Disable line wrap
-o.wrap = false
+-- Line wrap
+o.wrap = true
 
 o.swapfile = false
 o.backup = false

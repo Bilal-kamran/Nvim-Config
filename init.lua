@@ -1,2 +1,1 @@
 require("bilalkamran")
-require("config")

@@ -46,16 +46,13 @@ map("i", "<C-c>", "<Esc>", { noremap = true })
 -- Map Q to <nop>
 map("n", "Q", "<nop>", { noremap = true })
 
--- Format the current buffer using LSP if supported
-map("n", "<leader>f", vim.lsp.buf.format, { noremap = true, silent = true })
-
 -- Jump to items in quickfix list
-map("n", "<C-cn>", "<cmd>cnext<CR>zz", { noremap = true, silent = true })
-map("n", "<C-pr>", "<cmd>cprev<CR>zz", { noremap = true, silent = true })
+-- map("n", "<C-cn>", "<cmd>cnext<CR>zz", { noremap = true, silent = true })
+-- map("n", "<C-pr>", "<cmd>cprev<CR>zz", { noremap = true, silent = true })
 
 -- Jump to items in location list
-map("n", "<leader>k", "<cmd>lnext<CR>zz", { noremap = true, silent = true })
-map("n", "<leader>j", "<cmd>lprev<CR>zz", { noremap = true, silent = true })
+-- map("n", "<leader>k", "<cmd>lnext<CR>zz", { noremap = true, silent = true })
+-- map("n", "<leader>j", "<cmd>lprev<CR>zz", { noremap = true, silent = true })
 
 -- Change a word under the cursor across the whole file globally (Case sensitive)
 map("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<left><left><left>]], { noremap = true })
